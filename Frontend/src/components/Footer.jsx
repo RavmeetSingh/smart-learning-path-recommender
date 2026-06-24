@@ -1,5 +1,9 @@
 function Footer() {
-  return <h2>Footer</h2>;
+  return (
+    <footer>
+      <p>© 2026 StudyAI</p>
+    </footer>
+  );
 }
 
 export default Footer;
