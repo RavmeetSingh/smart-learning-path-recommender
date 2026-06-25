@@ -242,3 +242,34 @@ body::after{
 
   z-index:-1;
 }
+.features{
+  padding:100px 80px;
+  text-align:center;
+}
+
+.features h2{
+  font-size:3rem;
+  margin-bottom:50px;
+}
+
+.features-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:30px;
+}
+
+.feature-card{
+  background:#111827;
+  padding:40px;
+  border-radius:20px;
+  border:1px solid rgba(255,255,255,.05);
+
+  transition:.3s;
+}
+
+.feature-card:hover{
+  transform:translateY(-10px);
+
+  box-shadow:
+  0 0 40px rgba(139,92,246,.25);
+}

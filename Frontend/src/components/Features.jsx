@@ -2,23 +2,29 @@ function Features() {
   return (
     <section className="features">
 
-      <h2>Features</h2>
+      <h2>Why StudyAI?</h2>
 
-      <div className="cards">
+      <div className="features-grid">
 
-        <div className="card">
-          <h3>Topic Prioritization</h3>
-          <p>Focus on important topics first.</p>
+        <div className="feature-card">
+          <h3>📚 Smart Topic Ranking</h3>
+          <p>
+            Focus on the most important topics first.
+          </p>
         </div>
 
-        <div className="card">
-          <h3>AI Summaries</h3>
-          <p>Convert notes into key points.</p>
+        <div className="feature-card">
+          <h3>🧠 AI Summaries</h3>
+          <p>
+            Convert lengthy notes into key concepts.
+          </p>
         </div>
 
-        <div className="card">
-          <h3>Quiz Generator</h3>
-          <p>Practice automatically generated quizzes.</p>
+        <div className="feature-card">
+          <h3>📝 Quiz Generator</h3>
+          <p>
+            Generate quizzes instantly from notes.
+          </p>
         </div>
 
       </div>
